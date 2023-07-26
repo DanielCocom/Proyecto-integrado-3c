@@ -1,0 +1,55 @@
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+/* html{
+    background-image: url(img/3850c7b9a2ff7b3c97e1b993bcdd6857--fran-illustration-art.jpg);
+} */
+main{
+    margin-bottom: 25px;
+}
+/* body{
+    background-color: white;
+} */
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+#post{
+    width: 400px;
+}
+
+#post div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+#boton_modal{
+    width: 500px;
+    height: 50px;
+
+}
+#btn btn-primary align-items-center{
+    margin-left: 100%;
+}
+
+.container {
+    display: none;
+  }
+
+  .container.open-modal {
+    display: block;
+  }
